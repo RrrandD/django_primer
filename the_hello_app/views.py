@@ -4,7 +4,7 @@ from datetime import datetime
 
 def say_hello(request):
 
-    message = "Hello World!!"
+    message = "Hello Earth!!"
 
     return render(request, "index.html", {'the_message': message})
 
